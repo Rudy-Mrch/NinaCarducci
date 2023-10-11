@@ -244,6 +244,26 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
+.footer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	background-color: #D8D3A8;
+	text-align: center;
+	gap: 1em;
+	padding: 2em;
+
+}
+.footer h3{
+	display: none;
+}
+
+.footer a {
+	color: blue;
+	text-decoration: underline;
+}
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
@@ -261,6 +281,24 @@ input[type="submit"] {
 }
 
 @media all and (max-width: 1000px) {
+	
+	.footer {
+		flex-direction: column;
+		gap: 0;
+	}
+	.footer h3{
+		gap: 0em;
+		padding: 0;
+		margin: 3px;
+		display: block;
+	}
+
+	.footer p{
+		margin: 0.2em;
+	}
+}
+	
+	
 	#about{
 		flex-direction: column;
 
