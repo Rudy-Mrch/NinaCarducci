@@ -255,7 +255,7 @@ input[type="submit"] {
 	padding: 2em;
 
 }
-.footer h3{
+.footer h2{
 	display: none;
 }
 
@@ -286,7 +286,7 @@ input[type="submit"] {
 		flex-direction: column;
 		gap: 0;
 	}
-	.footer h3{
+	.footer h2{
 		gap: 0em;
 		padding: 0;
 		margin: 3px;

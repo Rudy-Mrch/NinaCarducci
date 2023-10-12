@@ -199,18 +199,30 @@
 		</div>
 	</div>
 	<footer>
-		<div class="footer" itemscope itemtype="http://schema.org/Organization">
+		<div class="footer">
 			<h2>Contact</h2>
-			<p>Adresse : <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-				<span itemprop="streetAddress">68 avenue Alsace-Lorraine</span>,
-				<span itemprop="postalCode">33200</span>
-				<span itemprop="addressLocality">Bordeaux</span>
-			</span></p>
-			<p>Téléphone : <a href="tel:+33556677889" itemprop="telephone">05 56 67 78 89</a></p>
+			<p>Adresse : <a href="https://www.google.com/maps?q=68+avenue+Alsace-Lorraine,33200+Bordeaux"
+				target="_blank" rel="noopener">68 avenue Alsace-Lorraine 33200 Bordeaux</a></p>
+			<p>Téléphone : <a href="tel:+33556677889">05 56 67 78 89</a></p>
 			<p>Du lundi au vendredi de 10h à 19h.</p>
+			<script type="application/ld+json">
+			{
+				"@context": "http://schema.org",
+				"@type": "LocalBusiness",
+				"name": "Nina Carducci Photography",
+				"address": {
+					"@type": "PostalAddress",
+					"streetAddress": "68 avenue Alsace-Lorraine",
+					"addressLocality": "Bordeaux",
+					"postalCode": "33200",
+					"addressCountry": "France"
+				},
+				"telephone": "05 56 67 78 89",
+				"openingHours": "Mo-Fr 10:00-19:00"
+			}
+			</script>
 		</div>
 	</footer>
-	
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
 		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
